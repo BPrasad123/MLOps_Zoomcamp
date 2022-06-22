@@ -132,8 +132,7 @@ This is how it looks like.
 ![](https://github.com/BPrasad123/MLOps_Zoomcamp/blob/main/Week2/img/mlflowui_page.png)
 
 ## Experiment Tracking Code ##
-[Notebook in HTML for Experiment Tracking with MLflow](https://github.com/BPrasad123/MLOps_Zoomcamp/blob/main/Week2/mlflow_in_work.html)  
-Note: Corresponding notebook is present in the same location for others to try.
+[Notebook for Experiment Tracking with MLflow](https://github.com/BPrasad123/MLOps_Zoomcamp/blob/main/Week2/mlflow_in_work.ipynb)  
 
 ## Model Management with MLflow Model Registry ##
 Just like mlflow tracking server tracks all the experiments, in similar fashion model registry tracks the models that are registered for productionization. Models from the runs in an experiment as saved using either mlflow.log_artifact or mlflow.log_model. Moreover, Auto log option also saves the model by default.
