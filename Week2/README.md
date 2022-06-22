@@ -94,7 +94,7 @@ Install the required packages listed in requirements.txt file.
 ```pip install -r requirements.txt```
   
 mlflow comes with a CLI
-<add cli image here>
+![](https://github.com/BPrasad123/MLOps_Zoomcamp/blob/main/Week2/img/mlflowcli.png)
   
 We can launch mlflow ui as well. Run the following command to start mlflow ui (a gunicorn server) connected to the backend sqlite database.  
 ```mlflow ui --backend-store-uri sqlite:///mlflow.db```
@@ -129,14 +129,20 @@ INFO:waitress:Serving on http://127.0.0.1:5000
 To access mlflow ui open https://127.0.0.1:5000 in your browser.  
 
 This is how it looks like.  
+![](https://github.com/BPrasad123/MLOps_Zoomcamp/blob/main/Week2/img/mlflowui_page.png)
 
 ## Experiment Tracking Code ##
-Notebook for Experiment Tracking with MLflow
+[Notebook for Experiment Tracking with MLflow](https://github.com/BPrasad123/MLOps_Zoomcamp/blob/main/Week2/mlflow_in_work.ipynb)
 
 ## Model Management with MLflow Model Registry ##
 Just like mlflow tracking server tracks all the experiments, in similar fashion model registry tracks the models that are registered for productionization. Models from the runs in an experiment as saved using either mlflow.log_artifact or mlflow.log_model. Moreover, Auto log option also saves the model by default.
   
 MLflow Model Registry allows to assign the registered model to any of stages - Stage, Production and Archive. While registering a model to Model Registry, a new model name can be added or an existing one can be selected. If an existing one is selected, a new version of the model is created automatically.
+
+![](https://github.com/BPrasad123/MLOps_Zoomcamp/blob/main/Week2/img/5registermodel.png)
+![](https://github.com/BPrasad123/MLOps_Zoomcamp/blob/main/Week2/img/5registermodel2.png)
+![](https://github.com/BPrasad123/MLOps_Zoomcamp/blob/main/Week2/img/5registermodel3.png)
+![](https://github.com/BPrasad123/MLOps_Zoomcamp/blob/main/Week2/img/5registermodel4.png)
 
 All these activities can be performed on UI as well as with the Python APIs provided by mlflow client.
 
