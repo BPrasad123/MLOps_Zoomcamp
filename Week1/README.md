@@ -1,14 +1,25 @@
-# Purpose #
-This file is for outlining steps for configuring development environment with preference to Linux OS. For that matter, we are renting an Ubuntu server on AWS and setting up the environment to suit our need.
+# Introduction #
+
+# What is MLOps?
+Machine Learning engineering is not just about running experiments, but to realize its value in the real world scenarios. MLOps is a set of principles and practices for efficient management of end-to-end ML lifecycle from experiments to productionization.
+  
+**MLOps -**  
+* enables version management of both data as well as model artifacts.
+* operationalises the development and release cycle of ML models in CICD ecosystem
+* helps to monitor the performance of models in production to maintain effectiveness
+
+
+# Environment Set up #
+This section is for outlining steps for configuring development environment with preference to Linux OS. For that matter, we are renting an Ubuntu server on AWS and setting up the environment to suit our need.
 
 Note: I am on Windows Laptop, hence all the configurations done locally are pertaining to Windows OS only.
 
-# Step 1: Spin up EC2 Instance #
+## Step 1: Spin up EC2 Instance ##
 * Go to AWS Console to spin up an EC2 instance of Ubuntu flavour of t2.xlarge size.
 * Download the secret access keys (.pem file)
 * Take a note of the public IP
 
-# Step 2: Connect to Ubuntu EC2 server #
+## Step 2: Connect to Ubuntu EC2 server ##
 * [Optional] Move .pem secret access keys file to .ssh folder in home directory
 * Execute the following command from .ssh directory to change the permission of .pem file to protect it
   ``` sh
@@ -36,7 +47,7 @@ Note: I am on Windows Laptop, hence all the configurations done locally are pert
   ```
   Now run ```ssh short-name-of-your-choice``` to quickly connect to the ubuntu server. 
 
-# Step 3: Configure Ubuntu server #
+## Step 3: Configure Ubuntu server ##
 ### Install Anaconda ###
 * Visit Anaconda website to get the download link for Linux (x86) version and execute the following to download the file in the server.
   ``` sh
