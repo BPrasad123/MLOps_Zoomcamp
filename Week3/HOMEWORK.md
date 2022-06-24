@@ -60,7 +60,7 @@ http://<public_ip>:4201
 
 Please refer the solution code with comments.
 
-[Homework solution](/homework_solution.py)  
+[Homework solution](homework_solution.py)
 Note: Only docstrings and comments added to the already shared solution script.
 
 Run the solution script in the terminal of the VM and we will see logs similar to as following.
