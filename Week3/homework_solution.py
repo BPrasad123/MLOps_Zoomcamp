@@ -134,17 +134,27 @@ def main(date=None):
     with open(f'./models/dv-{date}.b', 'wb') as f_out:
         pickle.dump(dv, f_out)
 
-# main("2021-08-15")
+# main("2021-03-15")
 
 # Import prefect methods for deployment
 from prefect.deployments import DeploymentSpec
 from prefect.orion.schemas.schedules import CronSchedule
 from prefect.flow_runners import SubprocessFlowRunner
 
+# # Test deployment of the workflow
+# DeploymentSpec(
+#     flow=main("2021-03-15"),
+#     name="model_training",
+#     schedule=CronSchedule(cron="* * * * *"),
+#     flow_runner=SubprocessFlowRunner(),
+#     tags=["homework"]
+# )
+
 # Deploy the workflow
 DeploymentSpec(
-    flow=main,
+    flow=main(),
     name="model_training",
     schedule=CronSchedule(cron="0 9 15 * *"), # Cron expression to run a flow at 9 AM every 15th of the month
     flow_runner=SubprocessFlowRunner(),
+    tags=["homework"]
 )

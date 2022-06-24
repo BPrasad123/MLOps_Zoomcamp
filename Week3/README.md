@@ -43,3 +43,7 @@ It is an Open-Source workflow engine, a dataflow orchestration platform. Some of
 More details:  
 https://docs.prefect.io/
 
+
+# Prefect in action #
+Please follow through the [homework solution](HOMEWORK.md) to see Prefect in action.
+
