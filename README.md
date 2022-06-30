@@ -11,6 +11,8 @@ Free MLOps course run by DataTalksClub. The program comprises seven modules foll
     * Environment preparation
     * Homework
 
+    [Week1: Notes, code and assignment](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week1)
+
 * Module 2: Experiment tracking and model management
     * Experiment tracking intro
     * Getting started with MLflow
@@ -20,12 +22,16 @@ Free MLOps course run by DataTalksClub. The program comprises seven modules foll
     * MLflow in practice
     * Homework
 
+    [Week2: Notes, code and assignment](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week2)
+
 * Module 3: Orchestration and ML Pipelines
     * Workflow orchestration
     * Prefect 2.0
     * Turning a notebook into a pipeline
     * Deployment of Prefect flow
     * Homework
+
+    [Week3: Notes, code and assignment](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week3)
 
 * Module 4: Model Deployment
     * Batch vs online
@@ -34,6 +40,9 @@ Free MLOps course run by DataTalksClub. The program comprises seven modules foll
     * Web services
     * Streaming (Kinesis/SQS + AWS Lambda)
     * Homework
+
+    [Week4: Notes, code and assignment](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week4)
+
 * Module 5: Model Monitoring
     * ML monitoring vs software monitoring
     * Data quality monitoring
@@ -41,6 +50,7 @@ Free MLOps course run by DataTalksClub. The program comprises seven modules foll
     * Batch vs real-time monitoring
     * Tools: Evidently, Prometheus and Grafana
     * Homework
+  
 * Module 6: Best Practices
     * Devops
     * Virtual environments and Docker
@@ -51,15 +61,18 @@ Free MLOps course run by DataTalksClub. The program comprises seven modules foll
     * Cookiecutter
     * Makefiles
     * Homework
+  
 * Module 7: Processes
     * CRISP-DM, CRISP-ML
     * ML Canvas
     * Data Landscape canvas
     * MLOps Stack Canvas
     * Documentation practices in ML projects (Model Cards Toolkit)
+
+
 * Project
     * End-to-end project with all the things above
-
+  
 Our heartfelt gratitude to all the instructors for taking time and teaching us.  
 Larysa Visengeriyeva  
 Cristian Martinez  
