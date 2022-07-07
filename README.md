@@ -20,7 +20,10 @@ Free MLOps course run by DataTalksClub. The program comprises seven modules foll
     * Saving and loading models with MLflow
     * Model registry
     * MLflow in practice
-    * Homework
+    * Homework  
+  
+
+    ![](/Week2/img/experiment_tracking_mlflow.png)
 
     [Week2: Notes, code and assignment](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week2)
 
@@ -30,6 +33,9 @@ Free MLOps course run by DataTalksClub. The program comprises seven modules foll
     * Turning a notebook into a pipeline
     * Deployment of Prefect flow
     * Homework
+  
+    
+    ![](/Week3/img/mlfowandprefect.png)
 
     [Week3: Notes, code and assignment](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week3)
 
@@ -40,6 +46,8 @@ Free MLOps course run by DataTalksClub. The program comprises seven modules foll
     * Web services
     * Streaming (Kinesis/SQS + AWS Lambda)
     * Homework
+
+    ![](/Week4/img/modeldeployment.png)
 
     [Week4: Notes, code and assignment](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week4)
 

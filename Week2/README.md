@@ -79,6 +79,9 @@ Model Registry concepts to manage life cycle of mlflow model:
 More details on MLFlow Model Registry:  
 https://mlflow.org/docs/latest/model-registry.html
 
+
+![](/Week2/img/experiment_tracking_mlflow.png)
+
 # Video Lecture Notes #
 
 ## Getting Started with MLflow ##
