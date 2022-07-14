@@ -12,6 +12,11 @@ Free MLOps course run by DataTalksClub. The program comprises seven modules foll
     * Homework
 
     [Week1: Notes, code and assignment](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week1)
+  
+    ![](/Week1/imgs/neptune-mlops.png "Source: Neptune.ai")
+    <p align = "center">
+    Source: Neptune.ai
+    </p>
 
 * Module 2: Experiment tracking and model management
     * Experiment tracking intro
@@ -22,10 +27,11 @@ Free MLOps course run by DataTalksClub. The program comprises seven modules foll
     * MLflow in practice
     * Homework  
   
-
-    ![](/Week2/img/experiment_tracking_mlflow.png)
-
     [Week2: Notes, code and assignment](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week2)
+
+    ![](/Week2/img/experiment-tracking-mlops-v2.png)
+
+
 
 * Module 3: Orchestration and ML Pipelines
     * Workflow orchestration
@@ -34,10 +40,9 @@ Free MLOps course run by DataTalksClub. The program comprises seven modules foll
     * Deployment of Prefect flow
     * Homework
   
-    
-    ![](/Week3/img/mlfowandprefect.png)
-
     [Week3: Notes, code and assignment](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week3)
+
+    ![](/Week3/img/mlfowandprefect2.png)
 
 * Module 4: Model Deployment
     * Batch vs online
@@ -45,11 +50,16 @@ Free MLOps course run by DataTalksClub. The program comprises seven modules foll
     * Serving models in Batch mode
     * Web services
     * Streaming (Kinesis/SQS + AWS Lambda)
-    * Homework
+    * Homework  
+
+    [Week4 Part-1 [Web-service]: Notes, code and assignment](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week4)
 
     ![](/Week4/img/modeldeployment.png)
 
-    [Week4: Notes, code and assignment](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week4)
+    [Week4 Part-2 [Streaming]: Notes, code](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week4/streaming)
+
+    ![](/Week4/streaming/imgs/architecture.png)
+
 
 * Module 5: Model Monitoring
     * ML monitoring vs software monitoring
