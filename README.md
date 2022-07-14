@@ -54,7 +54,7 @@ Free MLOps course run by DataTalksClub. The program comprises seven modules foll
 
     [Week4 Part-1 [Web-service]: Notes, code and assignment](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week4)
 
-    ![](/Week4/img/modeldeployment.png)
+    ![](/Week4/img/deploymentarchitecture.png)
 
     [Week4 Part-2 [Streaming]: Notes, code](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week4/streaming)
 
