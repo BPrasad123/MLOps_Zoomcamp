@@ -4,7 +4,7 @@ I do not claim the ownership of the code. The credit goes to DataTalksClub for s
 # ML Model deployed, what next? #
 We have learnt how to run and track ML experiments, and deploy the chosen models into production. The prediction services are now up and running, and generating predictions for given data. 
 
-![](/Week5/imgs/predwebservice.png)
+![](/Week5/imgs/predwebservice_v2.png)
 
 So are we done now?
 
@@ -36,7 +36,7 @@ From the stored data, metrices can be calculated and stored in a SQL or NOSQL da
 
 ## Architecture ##
 
-![](/Week5/imgs/complete_architecture_v3.png)
+![](/Week5/imgs/complete_architecture_v4.png)
 
 **How it works:**
 

@@ -57,7 +57,7 @@ Free MLOps course run by DataTalksClub. The program comprises seven modules foll
 
     [Week4 Part-2 [Streaming]: Notes, code](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week4/streaming)
 
-    ![](/Week4/img/predwebservice.png)
+    ![](/Week5/imgs/predwebservice_v2.png)
 
 
 * Module 5: Model Monitoring
@@ -70,7 +70,7 @@ Free MLOps course run by DataTalksClub. The program comprises seven modules foll
   
     [Week5: Notes](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week5)  
 
-    ![](/Week5/imgs/complete_architecture_v3.png)
+    ![](/Week5/imgs/complete_architecture_v4.png)
 
 * Module 6: Best Practices
     * Devops

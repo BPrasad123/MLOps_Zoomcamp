@@ -15,7 +15,7 @@ Webservice: We wrap the model in a web service where the model can be loaded and
 
 Streaming: Runs in producer and consumer model where the producer pushes information to event stream and the consumers listen to the stream to get updates. For example, the predicted taxi duration result is published in the event stream and consumers such as subsequent models listen to the event stream to fetch the predicted data to further do further processing.
 
-![](/Week4/img/predwebservice.png)
+![](/Week4/img/predwebservice_v1.png)
 
 ## Deploying model as a web-service ##
 
