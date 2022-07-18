@@ -1,10 +1,10 @@
 # Disclaimer #
-The credit goes to DataTalksClub for such a wonderful learning experience. The code was given by the DataTalksClub that I ran to reproduce the result. Wherever I faced issues, those along with workarounds are mentioned in corresponding sections in this readme file. Happy Learning!
+I do not claim the ownership of the code. The credit goes to DataTalksClub for such a wonderful learning experience. The code was given by the DataTalksClub that I ran to learn and reproduce the result. I have added notes here in this README file as I executed the corresponding steps as instructed in the session. Happy Learning!
 
 # ML Model deployed, what next? #
 We have learnt how to run and track ML experiments, and deploy the chosen models into production. The prediction services are now up and running, and generating predictions for given data. 
 
-![](/Week4/img/deploymentarchitecture.png)
+![](/Week5/imgs/predwebservice.png)
 
 So are we done now?
 
@@ -36,20 +36,20 @@ From the stored data, metrices can be calculated and stored in a SQL or NOSQL da
 
 ## Architecture ##
 
-![](/Week5/imgs/monitoringarchitecuture.png)
+![](/Week5/imgs/complete_architecture_v3.png)
 
 **How it works:**
 
 Online Monitoring:  
 * The prediction service exposes an endpoint with input and output data in JSON format.  
 * The monitoring service, Evidently, pulls the input and output data from the exposed endpoint.
-* Once the monitoring metrices are calculated by Evidently, that are moved to Prometheus database for storage.
+* Evidently monitoring service calculates and exposes metrices that are scrapes by Prometheus for storage.
 * Next, predefined visualizations are created in Grafana for the metrices data available in Prometheus.
 
 Batch Monitoring:  
-* The prediction service sends copy of input and output data in JSON format to the Mongo DB.
-* Prefect pipeline reads the data from Mongo DB, sends that to Evidently to calculate metrices and stores metrices data back in Mongo DB.
-* With the metrices generation, Evidently produces nice visualizations in an HTML file.
+* The prediction service sends copy of input and prediction output data in JSON format to the Mongo DB.
+* Prefect pipeline reads the data from Mongo DB, uses Evidently package to calculate metrices and optionally stores metrices data back in Mongo DB.
+* Optionally Prefect workflow uses Evidently package again to produce nice visualizations in an HTML file.
 
 In the architecture there are so many components involved that need to talk to each other for it to work. We will be using Docker Compose with necessary configurations for the same.
 
@@ -89,7 +89,7 @@ This script downloads green taxi data for the month of January for the years 202
 
 Issue Faced:  
 `The response object does not have key "content-length"`
-For this I commented the corresponding line and reran.
+It was because the download link for the files were changed. Accordingly updated the link in the script and it worked fine.
 
 **Step 5**  
 Next we run the following docker compose command to run all the containers for all the components in docker-compose file.
@@ -116,9 +116,6 @@ To access Grafana open localhost:3000 on browser and use `admin` as both user an
 
 Run `send_data.py` to send records for prediction with waiting time of 1 second.
 
-Issue faced:  
-Got error `pyarrow.lib.ArrowInvalid: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.` and none of the work arounds worked. Tried manually downloading the files and moving to respective folders. Finally that worked.
-
 **Step 8**  
 As a number of records are being processed, we now should see some dashboards in Grafana. Like this.  
 
@@ -143,6 +140,6 @@ Open the newly created Evidently HTML file to find the report along with visuali
 
 ![](/Week5/imgs/evidentlyreport.png)
 
-Voila! Now we learnt how we can monitor the deployed ML services in both online and batch modes.
+That's it! Now we learnt how we could monitor the deployed ML services in both online and batch modes.
 
 Thanks once again to Emeli Dral and DataTalksClub team!!

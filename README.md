@@ -29,7 +29,7 @@ Free MLOps course run by DataTalksClub. The program comprises seven modules foll
   
     [Week2: Notes, code and assignment](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week2)
 
-    ![](/Week2/img/experiment-tracking-mlops-v2.png)
+    ![](/Week2/img/experiment-tracking-mlops-v3.png)
 
 
 
@@ -42,7 +42,7 @@ Free MLOps course run by DataTalksClub. The program comprises seven modules foll
   
     [Week3: Notes, code and assignment](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week3)
 
-    ![](/Week3/img/mlfowandprefect2.png)
+    ![](/Week3/img/mlfowandprefect3.png)
 
 * Module 4: Model Deployment
     * Batch vs online
@@ -52,13 +52,12 @@ Free MLOps course run by DataTalksClub. The program comprises seven modules foll
     * Streaming (Kinesis/SQS + AWS Lambda)
     * Homework  
 
-    [Week4 Part-1 [Web-service]: Notes, code and assignment](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week4)
+    [Week4 Part-1 [Web-service]: Notes, code and assignment](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week4)  
 
-    ![](/Week4/img/deploymentarchitecture.png)
 
     [Week4 Part-2 [Streaming]: Notes, code](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week4/streaming)
 
-    ![](/Week4/streaming/imgs/architecture.png)
+    ![](/Week4/img/predwebservice.png)
 
 
 * Module 5: Model Monitoring
@@ -69,6 +68,10 @@ Free MLOps course run by DataTalksClub. The program comprises seven modules foll
     * Tools: Evidently, Prometheus and Grafana
     * Homework
   
+    [Week5: Notes](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week5)  
+
+    ![](/Week5/imgs/complete_architecture_v3.png)
+
 * Module 6: Best Practices
     * Devops
     * Virtual environments and Docker

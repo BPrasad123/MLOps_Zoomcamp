@@ -44,7 +44,7 @@ More details:
 https://docs.prefect.io/
 
 
-![](/Week3/img/mlfowandprefect2.png)
+![](/Week3/img/mlfowandprefect3.png)
 
 # Prefect in action #
 Please follow through the [homework solution](HOMEWORK.md) to see Prefect in action.

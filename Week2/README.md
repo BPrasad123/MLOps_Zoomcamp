@@ -80,7 +80,7 @@ More details on MLFlow Model Registry:
 https://mlflow.org/docs/latest/model-registry.html
 
 
-![](/Week2/img/experiment-tracking-mlops-v2.png)
+![](/Week2/img/experiment-tracking-mlops-v3.png)
 
 # Video Lecture Notes #
 

@@ -11,7 +11,7 @@ In this part we deploying the model as serverless function that caters to stream
 
 **Architectural diagram**  
 
-![](/Week4/streaming/imgs/architecture.png)
+![](/Week4/img/predwebservice.png)
 
 
 ## Step 1: Create a role in AWS IAM ##
