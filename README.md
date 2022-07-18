@@ -81,7 +81,7 @@ Free MLOps course run by DataTalksClub. The program comprises seven modules foll
     * Infrastructure as code (terraform, cloudformation)
     * Cookiecutter
     * Makefiles
-    * Homework
+    * Homework  
   
 * Module 7: Processes
     * CRISP-DM, CRISP-ML

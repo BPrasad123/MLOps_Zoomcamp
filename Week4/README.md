@@ -28,7 +28,7 @@ Streaming: Runs in producer and consumer model where the producer pushes informa
 
 
 ### Save the trained model ###
-Here we are taking the same model, saved as a binary file, that was trained in previous model and put that in newly created web-service directory for this week.
+Here we are taking the same model, saved as a binary file, that was trained in previous model and put that in newly created web-service directory for this week. 
 
 One can run a fresh model so as to train and save the model as well.
 

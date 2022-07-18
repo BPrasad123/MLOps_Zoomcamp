@@ -24,7 +24,7 @@ There are many facets when to monitor when it comes to machine learning.
 * Data Health
     * Data quality and integrity
     * Data and concept drift
-    * Outliers
+    * Outliers 
 
 ## Types of monitoring ##
 Depending upon the requirements we can go for **online monitoring** where we continuously read input and output data so as to find inconsistencies or we read the stored input and output data periodically to monitor the status that is **batch monitoring**.
